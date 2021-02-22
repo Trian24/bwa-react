@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Header from 'parts/header';
 
 class landing extends Component {
   render() {
     return (
-      <div>
-        
-      </div>
+      <>
+        <Header {...this.props}></Header>
+      </>
     );
   }
 }
